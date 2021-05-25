@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="tit">Login Page</h1>
+    <nav class="mainnav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- container -->
+    <div class="wrapper">
+      <!-- new row -->
+      <div class="row">
+        <!-- new column -->
+        <div class="column">
+          <div class="column1">
+            <label for="uname">Username: </label>
+            <input
+              type="text"
+              name="uname"
+              id="uname"
+              placeholder="Enter your Username"
+              required
+            /><br /><br />
+            <label for="pword">Password: </label>
+            <input
+              type="password"
+              name="pword"
+              id="pword"
+              placeholder="Enter your Password"
+              required
+            /><br /><br />
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
+              value="Submit Credentials"
+            />
+          </div>
+        </div>
+        <!-- adding another column -->
+        <div class="column">
+          <div class="column2">
+            <img src="generic-placeholder-person.png" id="genericman" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

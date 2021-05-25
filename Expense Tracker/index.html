@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracking App</title>
+  </head>
+  <body>
+    <h1>Expense Tracker</h1>
+    <div id="addItems">
+      Name:
+      <input type="text" class="xName" placeholder="Name of Expense" />
+      Date:
+      <input type="date" class="xDate" placeholder="Date of Purchase" /><br />
+      Amount:
+      <input type="number" class="xAmt" placeholder="Cost of Purchase" /><br />
+      <input type="button" class="addX" value="Add Expense" /><br />
+    </div>
+    <br />
+    <div id="tablewrapper">
+      <table id="xTable">
+        <tr>
+          <th class="nameCol">Name</th>
+          <th class="dateCol">Date</th>
+          <th class="amountCol">Amount</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

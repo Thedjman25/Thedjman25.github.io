@@ -1,0 +1,39 @@
+@media (min-width: 40em) {
+  body {
+    display: grid;
+    /* grid-gap: 1em;
+    grid-template-rows: auto auto;
+    min-height: 100vh; covers *100% of the viewport */
+    /* grid-template-columns: 12em 1fr;
+    grid-template-rows: auto 1fr auto; */
+    grid-template-areas:
+      "banner banner"
+      "nav main"
+      "nav footer";
+  }
+}
+
+header {
+  grid-area: banner;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+}
+
+body > * {
+  border: 5px solid purple;
+  color: white;
+  padding: 1em;
+  margin: 0.5em;
+}
+body {
+  background-color: black;
+}

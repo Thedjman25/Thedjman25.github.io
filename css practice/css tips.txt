@@ -1,0 +1,7 @@
+CLASSEs VS IDs:
+		-id is used for single elements that appear on the page for only once (e.g. header, footer, menu), whereas class is used for single or multiple elements that appear on the page for once or more than once (e.g. paragraphs, links, buttons, input boxes).
+
+FLEXBOX VS GRID:
+		- flexbox lines things up in one direction.
+
+WE WORK WITH classList for CSS IN JS ALL THE TIME!!! (USED TO MANIPULATE CSS STYLING BY CLASS NAME; FOR EXAMPLE HIDE AND EXPOSE (ADD AND REMOVE).
