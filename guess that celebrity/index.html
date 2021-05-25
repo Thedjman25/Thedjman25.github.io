@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess That Clebrity</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="myBody">
+    <div class="grid">
+      <header class="header"><h1>Guess That Celebrity</h1></header>
+      <nav>
+        <div class="newGameContainer">
+          <button class="newGame">Guess</button>
+        </div>
+        <div class="quitGameContainer">
+          <button class="quitGame">Start Over</button>
+        </div>
+      </nav>
+      <div class="celebPic">
+        <img class="randPic hidden" />
+      </div>
+      <button class="openHintBtn">Hint!</button>
+      <div class="hintModal hidden">
+        <button class="closeHintBtn">&times;</button>
+        <h2>Here's your Hint!</h2>
+        <p class="randPara"></p>
+      </div>
+      <div class="celebBtns">
+        <button class="celebBtn" value="http://127.0.0.1:8080/bill-gates.jpg">
+          Bill Gates
+        </button>
+        <button class="celebBtn2" value="http://127.0.0.1:8080/denzel.jpg">
+          Denzel Washington
+        </button>
+        <button class="celebBtn3" value="http://127.0.0.1:8080/malcolmx.jpg">
+          Malcolm X
+        </button>
+      </div>
+    </div>
+    <footer>
+      <h3>Instructions:</h3>
+      The object of the game is to guess which celebrity is currently hiding
+      behind the curtain. Click on the hint button to display fun facts about
+      the current celebrity. Then according to those facts click the
+      corresponding button below. If you guess correctly the celebrity will be
+      revealed. To play again, simply click on the "Start Over" button near the
+      top of the page. Good Luck!!!
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
